@@ -8,6 +8,7 @@ function addOne(){
 
 function Clear(){
     document.getElementById("res").innerText = "";
+    sign = ""
 }
 function Sum(){
     document.getElementById("res").innerText = document.getElementById("res").innerText + "+";
